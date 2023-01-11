@@ -1,0 +1,276 @@
+@media (max-width: 320px) {
+  .wrapper {
+    width: 300px;
+  }
+  .header {
+    max-width: 320px;
+    width: 100%;
+  }
+  .header__wrapper {
+    min-width: 300px;
+    width: 100%;
+  }
+  .header__logonav {
+    max-width: 300px;
+    width: 100%;
+  }
+  .burger-menu {
+    margin-right: 0;
+  }
+  /* Header End */
+  /* Favorite-animals Start */
+  .favorite-animals {
+    max-height: 221px;
+    max-width: 320px;
+  }
+  .favorite-animals__background {
+    max-width: 320px;
+    background: url("../../assets/images/giant-panda_mobile.jpg") no-repeat;
+    background-position-x: 0px;
+    background-position-y: 34px;
+  }
+  .favorite-animals__wrapper {
+    grid-template-columns: 145px 150px;
+  }
+  .favorite-animals__logo-circle {
+    max-width: 119.09px;
+    max-height: 119.09px;
+    margin-top: 57px;
+  }
+  .favorite-animals__logo-text-text {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 75%;
+    top: 19px;
+    left: 19px;
+  }
+  .favorite-animals__button {
+    margin-top: 67px;
+    margin-left: -144px;
+  }
+  /* Favorite-animals End */
+  /* Backstage Start */
+  .backstage {
+    background-image: url("../../assets/images/flower_backstage-mobile.png");
+    background-position-y: 15%;
+    margin-bottom: 40px;
+  }
+  .backstage__content {
+    max-width: 300px;
+    max-height: 450px;
+  }
+  .backstage__content-textblock {
+    max-width: 300px;
+  }
+  .backstage__content-textblock-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    max-width: 300px;
+    margin-top: 45px;
+    margin-left: 0;
+  }
+  .backstage__content-textblock-text {
+    max-width: 300px;
+    margin-top: 4px;
+    margin-left: 2px;
+  }
+  .backstage__content-textblock-subtitle {
+    margin-top: 13px;
+    margin-left: 2px;
+  }
+  .backstage__content-textblock-subtext {
+    max-width: 300px;
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
+  /* Backstage End */
+  /* Pets Start */
+  .pets {
+    background-image: url("../../assets/images/palm_foto_mobile.png"), url("../../assets/images/strelitzia_mobile.png");
+    padding-bottom: 62px;
+  }
+  .pets__wrapper {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  .pets__containers {
+    max-width: 320px;
+    left: 0;
+    margin: 0 auto;
+  }
+  #current {
+    display: none;
+  }
+  #right {
+    display: none;
+  }
+  .pets__container {
+    min-width: 300px;
+    /* grid-template-areas: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+    row-gap: 20px; */
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    margin-bottom: 20px;
+  }
+  .pets__arrow-left, .pets__arrow-right {
+    display: none;
+  }
+  .pets__card {
+    margin: 0 auto;
+    height: 332px;
+  }
+  .pets__card:nth-last-child(2) {
+    display: none;
+  }
+  .pets__card:nth-last-child(1) {
+    display: none;
+  }
+  /* Pets End */
+  /* Pick friend Start */
+  .pick-friend {
+    padding-top: 20px;
+    max-height: 1082px;
+    margin-bottom: 30px;
+  }
+  .pick-friend__wrapper {
+    max-width: 300px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .pick-friend__title {
+    max-width: 300px;
+    margin: 10px auto 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .pick-friend__subtitle {
+    margin: 0 3px 20px 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+  }
+  .pick-friends__covid {
+    display: none;
+  }
+  .pick-friend__text {
+    display: none;
+  }
+  .pick-friend__content {
+    max-width: 300px;
+    height: auto;
+  }
+  .pick-friend__content-title {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .pick-friend__content-cards {
+    max-width: 300px;
+    height: auto;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .pick-friend__content-card {
+    margin: 0 auto;
+    height: auto;
+  }
+  .pick-friend__content-card-background {
+    margin-bottom: 12px;
+  }
+  .pick-friend__content-card-text {
+    margin: 10px 0 20px 0;
+  }
+  .zoo-card {
+    margin-bottom: 7px;
+  }
+  .pick-friend__content-arrow {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .arrow_tablet {
+    transform: rotate(85deg);
+    top: -30px;
+    left: 205px;
+  }
+  .pick-friend__content-button {
+    margin-bottom: 40px;
+  }
+  /* Pick friend End */
+  /* Testimonials Start */
+  .testimonials {
+    background-image: url(../../assets/images/leav_foto_mobile.png);
+    background-position-y: 488px;
+    padding-bottom: 60px;
+  }
+  .testimonials__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 20px;
+  }
+  .testimonials__cards {
+    margin-bottom: 10px;
+  }
+  .testimonials__card {
+    max-width: 299px;
+    height: 109px;
+  }
+  .testimonials__card-review {
+    max-width: 252px;
+  }
+  .testimonials__card-personinfo {
+    margin-top: 12px;
+    margin-left: 15px;
+  }
+  /* Testimonials End */
+  /* Footer Start */
+  .first-footer-row {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    width: 128px;
+    border: none;
+  }
+  .footer__logo-title {
+    width: 128px;
+  }
+  .footer__logo-img {
+    position: absolute;
+    left: 77px;
+    top: -1px;
+  }
+  .second-footer-row {
+    margin-bottom: 110px;
+  }
+  .third-footer-row {
+    flex-direction: column;
+    align-content: flex-end;
+    margin: 0;
+  }
+  .footer__social {
+    flex-direction: row;
+    width: 194px;
+    justify-content: space-between;
+    bottom: 105px;
+    right: 55px;
+  }
+  .footer__navigation {
+    margin: 0 auto;
+    max-width: 278px;
+  }
+  .footer__autor {
+    position: absolute;
+    bottom: 80px;
+    right: -5px;
+  }
+}
