@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+   <header class="header">
+    <div class="wrapper header-wrapper">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="#contacts" class="nav-link">Contacts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#code" class="nav-link">Code example</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#language" class="nav-link">Language</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+   <main class="main">
+    <div class="wrapper preview-wrapper">
+        <img src="./assets/img/profilefoto1.png" alt="profile photo" class="preview-photo">
+        <div class="preview-title">
+            <h1 class="main-title">Artsiom Vakulski</h1>
+            <h2 class="subtitle">JUNIOR FRONT-END DEVELOPER</h2>
+        </div>
+    </div>
+    <section class="wrapper contacts-wrapper" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="contacts-list">
+            <li class="contacts-list-item">
+                <h4 class="list-item-title">Country</h4>
+                <p class="list-item-text">Belarus</p>
+            </li>
+            <li class="contacts-list-item">
+                <h4 class="list-item-title">City</h4>
+                <p class="list-item-text">Brest</p>
+            </li>
+            <li class="contacts-list-item">
+                <h4 class="list-item-title">Email</h4>
+                <p class="list-item-text">vakylskij@gmail.com</p>
+            </li>
+            <li class="contacts-list-item">
+                <h4 class="list-item-title">Telegram</h4>
+                <p class="list-item-text">archdemon7</p>
+            </li>
+            <li class="contacts-list-item">
+                <h4 class="list-item-title">GitHub</h4>
+                <p class="list-item-text">archdemon7</p>
+            </li>
+            <li class="contacts-list-item">
+                <h4 class="list-item-title">Discord</h4>
+                <p class="list-item-text">archdemon#0138</p>
+            </li>
+        </ul>
+    </section>
+    <section class="wrapper about-wrapper" id="about">
+        <h2 class="section-title">About me</h2>
+        <p class="about-text">Hello! I am a system administrator.
+            I enrolled in this course because I want to change my occupation to Frontend developer.
+            I have experience working with HTML, CSS, JS, Python.</p>
+    </section>
+    <section class="wrapper skills-wrapper" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+            <li class="skills-list-item">
+                <h4 class="list-item-title">HTML</h4>
+                <div class="progress-bar">
+                    <div class="progress html-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">CSS</h4>
+                <div class="progress-bar">
+                    <div class="progress css-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">JS</h4>
+                <div class="progress-bar">
+                    <div class="progress js-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">Figma</h4>
+                <div class="progress-bar">
+                    <div class="progress figma-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">VSCode</h4>
+                <div class="progress-bar">
+                    <div class="progress vscode-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">GitHub</h4>
+                <div class="progress-bar">
+                    <div class="progress github-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">Python</h4>
+                <div class="progress-bar">
+                    <div class="progress python-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">Django</h4>
+                <div class="progress-bar">
+                    <div class="progress django-progress"></div>
+                </div>
+            </li>
+            <li class="skills-list-item">
+                <h4 class="list-item-title">Windows Server</h4>
+                <div class="progress-bar">
+                    <div class="progress wserver-progress"></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="wrapper code-wrapper" id="code">
+        <h2 class="section-title">Code example</h2>
+        <p class="text"><span class="class-bold">Delete occurrences of an element if it occurs more than n times.</span>
+            <span class="class-italic">Given a list and a number, create a new list that contains each number of list at most N times, 
+            without reordering. For example if the input number is 2, and the input list is [1,2,3,1,2,1,2,3], 
+            you take [1,2,3,1,2], drop the next [1,2] since this would lead to 1 and 2 being in the result 3 times, 
+            and then take 3, which leads to [1,2,3,1,2,3]. With list [20,37,20,21] and number 1, the result would be [20,37,21].</span></p>
+            <pre><code>
+              def delete_nth(order,max_e):
+                m = order[::-1]
+                for i in order:
+                  while m.count(i) > max_e:
+                  m.remove(i)
+                return m[::-1]
+              </code></pre>
+    </section>
+    <section class="wrapper projects-wrapper" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <a href="https://rolling-scopes-school.github.io/archdemon7-JSFE2022Q3/online-zoo/pages/main/index.html" target="_blank" class="projects-link">
+                    <img src="./assets/img/zoo.png" alt="project img" class="project-img">
+                </a>
+                <p class="project-name">Online Zoo</p>
+            </div>
+            <div class="project">
+                <a href="https://archdemon7.github.io/rsschool-cv/" target="_blank" class="projects-link">
+                    <img src="./assets/img/cv.png" alt="project img" class="project-img">
+                </a>
+                <p class="project-name">CV</p>
+            </div>
+        </div>
+    </section>
+    <section class="wrapper education-wrapper" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education-list">
+            <li class="education-item">
+                University: <a class="education-link" target="_blank" href="https://www.bstu.by/">Brest State Technical University</a>
+            </li>
+            <li class="education-item">
+                Python: <a class="education-link" target="_blank" href="https://stepik.org/course/58852/">course for beginners</a>
+            </li>
+            <li class="education-item">
+                Python: <a class="education-link" target="_blank" href="https://stepik.org/course/68343/">advanced course</a>
+            </li>
+            <li class="education-item">
+                Rolling Scopes School: <a class="education-link" target="_blank" href="https://wearecommunity.io/events/js-stage0-rs-2022q4">JavaScript/Front-end Course. Stage 0 by RS School</a>
+            </li>
+          </ul>
+    </section>
+    <section class="wrapper language-wrapper" id="language">
+        <h2 class="section-title">Language</h2>
+        <ul class="language-list">
+            <li class="language-item">
+                <p class="language-text">Russian - native</p>
+            </li>
+            <li class="language-item">
+                <p class="language-text">English - A2</p>
+            </li>
+          </ul>
+    </section>
+   </main>
+   <footer class="footer">
+        <div class="wrapper footer-wrapper">
+            <div class="rsschool-logo">
+                <a href="https://wearecommunity.io/events/js-stage0-rs-2022q4" target="_blank">
+                    <img src="./assets/icons/logo-rs.svg" alt="rsschool logo" class="rsschool-img">
+                </a>
+            </div>
+            <div class="year">
+                <p class="year">2022</p>
+            </div>
+            <div class="github">
+                <a href="https://github.com/archdemon7" target="_blank">
+                    <img src="./assets/icons/github_logo.svg" alt="github logo" class="github-img">
+                </a>
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
