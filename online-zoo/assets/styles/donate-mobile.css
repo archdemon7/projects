@@ -1,0 +1,228 @@
+@media (max-width: 320px) {
+  .wrapper {
+    width: 300px;
+  }
+  .header {
+    min-width: 320px;
+    width: 100%;
+  }
+  .header__wrapper {
+    min-width: 300px;
+    width: 100%;
+  }
+  .burger-menu {
+    margin-right: 0;
+  }
+  .panda-section {
+    background: url("../../assets/images/panda_donate_tablet.jpg");
+    height: 221px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 24px;
+    background-position-x: 0;
+  }
+  .zoo-help {
+    height: auto;
+  }
+  .zoo-help__title {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .zoo-help__desk {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 25px;
+  }
+  .zoo-help__donate-information {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .peek-feed {
+    min-width: 300px;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 20px 0;
+  }
+  .peek-feed__title {
+    margin: 0 auto 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .peek-feed__subtitle {
+    max-width: 300px;
+    margin: 0 auto 10.28px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .peek-feed__panda-diet {
+    max-width: 300px;
+    max-height: 138px;
+    margin: 0 auto;
+    grid-template-columns: 95px 1fr 170px;
+  }
+  .peek-feed__panda-diet__first-column {
+    max-width: 90px;
+    width: 100%;
+  }
+  .first-column__number {
+    font-weight: 500;
+    font-size: 40.6015px;
+    line-height: 80%;
+    margin: 0 auto;
+    margin-top: 59px;
+    margin-bottom: 7px;
+  }
+  .first-column__text {
+    font-weight: 400;
+    font-size: 9.02255px;
+    line-height: 140%;
+  }
+  .peek-feed__panda-diet__second-column {
+    max-width: 17px;
+    margin: 0 auto;
+  }
+  .second-column__cross {
+    max-width: 7px;
+    margin-top: 73px;
+    margin-left: 0;
+  }
+  .peek-feed__panda-diet__third-column {
+    height: auto;
+  }
+  .third-column__panda {
+    width: 160px;
+    height: 138px;
+  }
+  .peek-feed__amount-content {
+    min-width: 300px;
+  }
+  .peek-feed__amount {
+    margin: 0;
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+  .peek-feed__slider {
+    width: 262px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .peek-feed__slider-item:nth-child(4) {
+    margin-left: 0;
+  }
+  .peek-feed__slider-item:nth-child(8) {
+    margin-right: 0;
+  }
+  .slider-label:nth-child(2) {
+    margin-left: 0;
+  }
+  .peek-feed__slider-background {
+    max-width: 300px;
+    max-height: 13.5px;
+    margin-bottom: 45px;
+  }
+  .peek-feed__slider-line {
+    max-width: 262px;
+  }
+  .peek-feed__slider-input:checked {
+    background: #FFEE2E;
+  }
+  .peek-feed__slider-input {
+    position: absolute;
+    top: 0;
+  }
+  .peek-feed__slider-input::after {
+    background-image: url("../../assets/icons/ellipse-mobile.png");
+    top: -1px;
+    margin-left: 0;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+  }
+  .peek-feed__slider-input[type="radio"] {
+    width: 5px;
+    height: 5px;
+  }
+  .peek-feed__slider-input:checked::after {
+    content: "";
+    position: absolute;
+    background-image: url("../../assets/icons/roller.svg");
+  }
+  .slider-label {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    margin-top: 13px;
+    margin-left: -40px;
+    background: url("../../assets/icons/dollar-mobile.svg") no-repeat;
+    background-position-y: 3px;
+    background-position-x: 7px;
+  }
+  .slider-label:nth-child(2) {
+    margin-left: -18px;
+  }
+  .peek-feed__form-input[type=number] {
+    margin-bottom: 26px;
+  }
+  .peek-feed__checkbox-form {
+    margin-bottom: 24px;
+  }
+  .peek-feed__form-button {
+    margin: 0 auto 14px;
+    padding: 0;
+  }
+  .shre-text {
+    margin-bottom: 0px;
+  }
+
+  .first-footer-row {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  .footer__logo {
+    margin: 0 auto;
+    width: 128px;
+    border: none;
+  }
+  .footer__logo-title {
+    width: 128px;
+    margin: 3px 15px;
+  }
+  .footer__logo-img {
+    position: absolute;
+    left: 87px;
+    top: -1px;
+  }
+  .second-footer-row {
+    margin-bottom: 110px;
+  }
+  .third-footer-row {
+    flex-direction: column;
+    align-content: flex-end;
+    margin: 0;
+  }
+  .footer__social {
+    flex-direction: row;
+    width: 194px;
+    justify-content: space-between;
+    bottom: 105px;
+    right: 55px;
+  }
+  .footer__navigation {
+    margin: 0 auto;
+    max-width: 278px;
+  }
+  .footer__autor {
+    position: absolute;
+    bottom: 80px;
+    right: -5px;
+  }
+}

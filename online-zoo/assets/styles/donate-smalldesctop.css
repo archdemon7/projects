@@ -1,0 +1,219 @@
+body {
+  font-family: "Roboto";
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  /* Header Start */
+  .document_wrapper {
+    display: flex;
+    width: 1000px;
+  }
+  .header {
+    z-index: 2;
+  }
+  .wrapper {
+    width: 940px;
+  }
+  .header__logonav {
+    max-width: 576px;
+  }
+  /* Header End */
+  /* Panda Start */
+  .panda-section {
+    background: url("../../assets/images/giant-panda.jpg");
+    height: 470px;
+    background-size: 160%;
+    background-position-y: -114px;
+    background-position-x: -173px;
+  }
+  /* Panda End */
+  /* Zoo-help Start */
+  .zoo-help {
+    height: 1333px;
+  }
+  .zoo-help__title {
+    max-width: 778px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .zoo-help__desk {
+    margin-bottom: 45px;
+  }
+  .zoo-help__donate-information {
+    margin-bottom: 40px;
+  }
+  .peek-feed {
+    padding: 10px 0 46px 0;
+    height: auto;
+  }
+  .peek-feed__title {
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .peek-feed__subtitle {
+    margin-left: 47px;
+    margin-bottom: 62px;
+  }
+  .peek-feed__panda-diet {
+    margin-left: 196px;
+  }
+  .peek-feed__slider-background {
+    max-width: 810px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 92px;
+  }
+  .peek-feed__slider-line {
+    max-width: 785px;
+    width: 100%;
+  }
+  .peek-feed__slider-item:nth-child(1) {
+    display: none;
+  }
+  .peek-feed__slider-item:nth-child(2) {
+    margin-left: 11px;
+  }
+  .peek-feed__slider-item:nth-child(8) {
+    margin-right: 11px;
+  }
+  .peek-feed__amount-content {
+    max-width: 810px;
+    margin: 0 auto;
+  }
+  .slider-label:nth-child(2) {
+    margin-left: -22px;
+  }
+  .peek-feed__form {
+    margin: 0 auto;
+  }
+  /* Zoo-help End */
+  /* Footer Start */
+  .first-footer-row {
+    padding-left: 0;
+    padding-right: 32px;
+  }
+  .second-footer-row {
+    padding-left: 0;
+  }
+  .third-footer-row {
+    padding-left: 0;
+    margin-right: -20px;
+  }
+  .footer__navigation {
+    width: 332px;
+    margin-right: 36px;
+  }
+  .footer__autor-wrap {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 960px) {
+  .peek-feed__panda-diet {
+    margin: 0 auto;
+  }
+  .third-footer-row {
+    margin-right: 0;
+  }
+}
+@media (max-width: 860px) {
+  .peek-feed__subtitle {
+    margin-left: 47px;
+  }
+  .peek-feed__slider-background {
+    max-width: 600px;
+  }
+  .peek-feed__slider-line {
+    max-width: 524px;
+  }
+  .peek-feed__slider-item:nth-child(2) {
+    display: none;
+  }
+  .peek-feed__slider-item:nth-child(3) {
+    display: none;
+  }
+  .peek-feed__slider-item:nth-child(4) {
+    margin-left: 35px;
+  }
+  .peek-feed__slider-item:nth-child(8) {
+    margin-right: 35px;
+  }
+  .slider-label:nth-child(2) {
+    margin-left: -30px;
+  }
+  .footer__subscribe {
+    display: none;
+  }
+}
+@media (max-width: 860px) {
+  .footer {
+    height: auto;
+  }
+  .first-footer-row {
+    margin-top: 12px;
+  }
+  .footer__logo {
+    margin-left: 0px;
+  }
+  .footer__logo {
+    border-radius: 2px;
+  }
+  .footer__logo-img {
+    position: absolute;
+    left: 11px;
+    top: 20px;
+  }
+  .footer__subscribe {
+    display: none;
+  }
+  .second-footer-row {
+    height: 52px;
+    margin-left: 0;
+    margin-top: -3px;
+    margin-bottom: 67px;
+  }
+  .third-footer-row {
+    position: relative;
+    padding: 0;
+    height: 52px;
+    margin-bottom: 12px;
+  }
+  .footer__social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 164px;
+    justify-content: space-between;
+    margin: 0;
+    bottom: 92px;
+    right: 18px;
+  }
+  .footer__social a {
+    display: none;
+  }
+  .footer__navigation {
+    margin: 0;
+    width: 298px;
+  }
+  .footer__autor {
+    margin-right: 3px;
+  }
+  @media (max-width: 750px) {
+    .panda-section {
+      background: url("../../assets/images/giant-panda.jpg");
+      height: 470px;
+      background-size: cover;
+      background-position-y: 0;
+      background-position-x: -173px;
+    }
+  }
+}
