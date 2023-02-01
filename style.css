@@ -59,7 +59,6 @@ h1, h2, h3 {
 }
 
 .section-link {
-    /* position: relative; */
     font-size: 15px;
     line-height: 1.4em;
 }
@@ -172,7 +171,7 @@ h1, h2, h3 {
     padding: 50px 50px 60px;
 }
 
-.setting_card-img-conteiner {
+.setting__card-img-conteiner {
     position: relative;
     width: 64px;
     height: 64px;
@@ -180,19 +179,166 @@ h1, h2, h3 {
     border-radius: 50%;
 }
 
-.setting_card-img {
+.setting__card-img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.setting_card-title {
+.setting__card-title {
     font-size: 20px;
     line-height: 1.2em;
 }
 
-.setting_card-description {
+.setting__card-description {
     font-size: 14px;
     line-height: 1.4em;
+}
+
+.store {
+    padding: 100px 0;
+}
+
+.store-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.store__description {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.store__cards {
+    max-width: 1168px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.store__card {
+    flex-basis: 378px;
+    height: 473px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+
+.store__card-title {
+    font-size: 28px;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+}
+
+.store__card-description {
+    font-size: 16px;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+.accessories-card {
+    background: url('./assets/img/accessories.jpg');
+}
+
+.apparel-card {
+    background: url('./assets/img/apparel.jpg');
+}
+
+.climbing-card {
+    background: url('./assets/img/climbing.jpg');
+}
+
+.headwear-card {
+    background: url('./assets/img/headwear.jpg');
+}
+
+.hiking-card {
+    background: url('./assets/img/hiking.jpg');
+}
+
+.jackets-card {
+    background: url('./assets/img/jackets.jpg');
+}
+
+.checkout__banner {
+    padding-top: 512px;
+    padding-bottom: 40px;
+    background: url('./assets/img/banner.jpg');
+
+}
+
+.checkout__contacts {
+    max-width: 615px;
+    max-height: 48px;
+    margin-right: 40px;
+    margin-left: auto;
+    background-color: #292C32;
+    border-radius: 16px;
+    padding: 12px 22px 20px;
+}
+
+.checkout__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__item {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1em;
+    text-align: center;
+    /* position: relative; */
+}
+
+.checkout__item::before {
+    content: '';
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+    background: url('./assets/img/kit.svg');
+    background-repeat: no-repeat;
+    transform: translateY(20%);
+}
+
+.checkout__brian::before {
+    background: url('./assets/img/camera.svg');
+}
+
+.checkout__leah::before {
+    background: url('./assets/img/person.svg');
+}
+
+.checkout__catalina::before {
+    background: url('./assets/img/location.svg');
+}
+
+.checkout__content {
+    background-color: #375C58;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.checkout__text {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 1.4em;
+    text-transform: uppercase;
+    color: #FAFAFC;
+}
+
+.checkout__title {
+    color: #E6B939;
+}
+
+.checkout__description {
+    color: #FAFAFC;
+    margin: 0 auto;
 }
