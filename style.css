@@ -341,4 +341,39 @@ h1, h2, h3 {
 .checkout__description {
     color: #FAFAFC;
     margin: 0 auto;
+    margin-bottom: 21px;
+}
+
+.checkout__btn {
+    background-color: #FFFFFF;
+    color: #575445;
+}
+
+.subscribe {
+    padding: 100px 0;
+}
+
+.subscribe-container {
+    max-width: 1168px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe__img {
+    max-width: 49%;
+}
+
+.subscribe__info {
+    padding: 0 104px;
+}
+
+.subscribe__title {
+    max-width: 295px;
+}
+
+.subscribe__description {
+    max-width: 384px;
+    margin-bottom: 20px;
 }
