@@ -1,0 +1,283 @@
+@media (max-width: 540px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .header__burger.active .burger-menu__averlay {
+        display: block;
+    }
+
+    .header__burger-nav {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        right: 100%;
+        z-index: 5;
+        padding: 36px 0 0 25px;
+        background-color: #EDF2EC;
+        transition: all 0.5s linear;
+    }
+
+    .header__burger-nav.active {
+        right: 0;
+    }
+
+    .header__burger-btn {
+        width: 40px;
+        height: 24px;
+    }
+
+    .burger-line {
+        box-sizing: border-box;
+        width: 40px;
+        height: 0;
+        margin-bottom: 5px;
+        border-top: 2px solid #717171;
+        transition: all 0.5s linear;
+    }
+
+    .header__burger-btn.active-burger {
+        position: fixed;
+        z-index: 16;
+        right: 7%;
+        /* margin-top: 10px; */
+    }
+
+    .header__burger-btn.active-burger .first,
+    .header__burger-btn.active-burger .fourth,
+    .header__burger-btn.active-burger .third{
+        opacity: 0;
+        transition: all 0.2s linear
+    }
+
+    .header__burger-btn.active-burger .second {
+        position: relative;
+        transform: rotate(45deg);
+        margin: 0;
+    }
+
+    .header__burger-btn.active-burger .second::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 0;
+        border-top: 2px solid #717171;
+        transform: translateY(-50%) rotate(90deg);
+    }
+
+    .welcome__leafs {
+        display: none;
+    }
+
+    .service__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .service__card {
+        margin: 0 auto;
+    }
+
+    .price-container {
+        flex-direction: column;
+    }
+
+    .contacts__city {
+        width: 300px;
+    }
+}
+
+
+
+@media (max-width: 380px) {
+    .header {
+        min-height: 96px;
+    }
+
+    .header__logo {
+        margin: 0;
+    }
+
+    .header__logo-logo {
+        margin: 0;
+    }
+
+    .header__logo-text {
+        margin: 0;
+        margin-top: 4px;
+    }
+
+    .wrapper {
+        max-width: 330px;
+    }
+
+    .header__wrapper {
+        padding: 36px 0;
+        height: 24px;
+    }
+
+    .welcome {
+        box-sizing: border-box;
+        padding: 26px 0 24px;
+    }
+
+    .welcome__container {
+        max-width: 330px;
+    }
+
+    .welcome__title {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20.36px;
+    }
+
+    .welcome__subtitle {
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 0;
+        margin-bottom: 26px;
+    }
+
+    .welcome__button {
+        width: 100px;
+        height: 34.14px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .about-wrapper {
+        padding: 30px 0 22px;
+        gap: 0;
+    }
+
+    .about__title {
+        font-size: 25px;
+        line-height: 33px;
+        margin-bottom: 13px;
+    }
+
+    .about__info {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 0;
+    }
+
+    .about__picture {
+        max-width: 150px;
+    }
+
+    .service {
+        padding: 30px 0 27px;
+    }
+
+    .service__title-section {
+        max-width: 252px;
+        margin-bottom: 31px;
+    }
+
+    .service__title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .service__buttons {
+        flex-wrap: wrap;
+        margin-top: 25px;
+    }
+
+    .service__button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 9px;
+    }
+
+    .service__cards {
+        row-gap: 34px;
+    }
+
+    .price-wrapper {
+        padding: 25px 0 40px;
+    }
+
+    .price__title {
+        margin: 0;
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .price__plans {
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 29px 22px;
+        max-width: 224px;
+        gap: 13.92px;
+    }
+
+    .price__plan {
+        width: 180px;
+        padding: 11.91px 40px 14.92px 30px;
+    }
+
+    .price__plans-name {
+        font-size: 15px;
+    }
+
+    .gardeners {
+        align-items: center;
+    }
+
+    .price__subtitle {
+        margin-top: 14px;
+        margin-bottom: 19px;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        max-width: 230px;
+    }
+
+    .price__button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+
+    .price__img {
+        display: none;
+    }
+
+    .contacts-wrapper {
+        padding: 25px 0 0;
+    }
+
+    .contacts__title {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .contacts__city {
+        margin-top: 80px;
+        padding-right: 20px;
+    }
+
+    .contacts__farmer {
+        max-width: 100px;
+        margin-top: 132px;
+    }
+
+    .footer-wrapper {
+        padding: 6px 0 0;
+    }
+
+    .footer__social-list li {
+        padding: 0;
+    }
+}

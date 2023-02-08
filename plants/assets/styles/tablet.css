@@ -1,0 +1,197 @@
+@media (max-width: 768px) {
+    .header {
+        min-height: 117px;
+    }
+
+    .wrapper {
+        max-width: 668px;
+    }
+
+    .header__wrapper {
+        padding: 35px 0;
+        height: 47px;
+    }
+
+    .welcome {
+        box-sizing: border-box;
+        padding: 40px 0 70px;
+    }
+
+    .welcome__leafs {
+        max-width: 280px;
+        max-height: 255px;
+    }
+
+    .welcome__container {
+        max-width: 346px;
+        order: -1;
+    }
+
+    .welcome__title {
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .welcome__subtitle {
+        margin: 0;
+        margin-left: 5px;
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 36px;
+    }
+
+    .about-wrapper {
+        max-height: 666px;
+        display: flex;
+        gap: 153px;
+        padding: 93px 109px 94px 109px;
+    }
+
+    .about-wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 0 95px;
+    }
+
+    .about__text {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__title {
+        margin: 0;
+        margin-bottom: 50px;
+        max-width: 423px;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+    }
+
+    .about__info {
+        max-width: 668px;
+        margin: 0;
+        margin-bottom: 28px;
+    }
+
+    .about__picture {
+        max-width: 250px;
+        max-height: 258px;
+    }
+
+    .service {
+        padding: 60px 0 70px;
+    }
+
+    .service__title-section {
+        max-width: 559px;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .service__title {
+        margin-bottom: 13px;
+        font-size: 35px;
+        line-height: 46px;
+    }
+
+    .service__cards {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 38px;
+        column-gap: 106px;
+    }
+
+    .service__card {
+        max-width: 281px;
+    }
+
+    .service__card-img {
+        min-height: 350px;
+    }
+
+    .service__card-title {
+        margin-bottom: 13px;
+    }
+
+    .service__card-desc {
+        max-width: 201px;
+        margin: 0 auto;
+        margin-bottom: 16px;
+    }
+
+    .price-wrapper {
+        padding: 40px 0 88.02px;
+    }
+
+    .price__title {
+        margin-top: 0;
+        margin-bottom: 56px;
+        margin-left: 15px;
+        font-size: 35px;
+        line-height: 42px;
+
+    }
+
+    .price__subtitle {
+        margin: 0;
+        margin-top: 100px;
+        margin-bottom: 29px;
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 29px;
+    }
+    
+    .price__button {
+        margin-bottom: 34px;
+    }
+
+    .contacts-wrapper {
+        padding: 40px 0 0;
+        flex-direction: column;
+    }
+
+    .contacts__title-container {
+        order: 1;
+        margin: 0;
+        text-align: center;
+    }
+
+    .contacts__title {
+        margin: 0;
+    }
+
+    .contacts__cities {
+        order: 2;
+        margin: 0 auto;
+    }
+
+    .contacts__farmer {
+        order: 3;
+        max-width: 200px;
+        margin: 0 auto;
+        margin-top: 250px;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .footer__github p {
+        margin: 0;
+    }
+
+    .footer__school {
+        padding: 0;
+        margin-top: -11px;
+    }
+
+    .footer__social-list {
+        padding: 0;
+        margin: 0;
+    }
+}
