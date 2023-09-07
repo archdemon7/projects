@@ -1,6 +1,9 @@
 # My projects
 
+* [Shelter](https://archdemon7.github.io/projects/shelter/)
 * [Virtual Keyboard](https://archdemon7.github.io/virtual-keyboard/)
+* [Minesweeper](https://archdemon7.github.io/minesweeper/)
+
 
 
 * CV - [Do you like glitch?](https://archdemon7.github.io/projects/cv/)
