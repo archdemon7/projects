@@ -1,6 +1,6 @@
 # My projects
 
-* [Shelter](https://archdemon7.github.io/projects/shelter/)
+* [Shelter](https://archdemon7.github.io/projects/shelter/pages/main)
 * [Virtual Keyboard](https://archdemon7.github.io/virtual-keyboard/)
 * [Minesweeper](https://archdemon7.github.io/minesweeper/)
 
